@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/index-nav.css">
+    <title>Inicio de Sesión</title>
+</head>
+<body>
+    <header>
+        <div class="header_superior">
+            <div class="logo">
+                <img src="img/logoyoga.png" alt="">
+                <h2>Yoga Integral</h2>
+            </div>
+            <div class="login">
+                <button class="btn" ><a href="login.html">Login</a></button>
+            </div>
+        </div>
+        <div class="conteiner_menu">
+            <div class="menu">
+                <input type="checkbox" id="check_menu">
+                <label id="label_checmk" for="check_menu">
+                    <img src="img/menu-h.png" alt="menu" >
+                </label>
+                
+                <nav>
+                    <ul>
+                        <li><a href="index.html"  ></a></li>
+                        <li><a href="#institucional">Institucional</a></li>
+                        <li><a href="#galeria-imagen">Galeria</a></li>
+                        <li><a href="#contactos">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="imagen-formulario">
+        <div class="titulo">
+           <h2>Yoga Integral</h2>     
+        </div>
+
+        <div class="formulario">
+            <img class="logo-titulo"  src="img/logoyoga.png" alt="logo">
+            <h2>Inicio de Sesión</h2>
+            <form action="post">
+                <div class="usuario">
+                    <img src="img/user.png" alt="user">
+                    <label>Usuario</label>
+                    <input type="text" required placeholder="Ingrese su nombre de Usuario">   
+                </div>
+
+                <div class="password">
+                    <img src="img/passw.png" alt="contraseña">
+                   <label for="">Contraseña</label>
+                    <input type="password" required placeholder="Ingrese su contraseña">   
+                </div>
+
+                <div class="recordar">
+                    <a href="#">Olvide mi contraseña</a>
+                </div>
+                
+                <input class="envio" type="submit" value="Inicio">
+
+                <div class="registrarse">
+                    No tengo cuenta quiero <a href="registro.html">Registrarme</a>
+                </div>
+            </form>        
+        </div>
+    </div>
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="img/logoyoga.png" alt="">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus adipisci optio repudiandae</P>
+            
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="RED-SOCIAL">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagran"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="grupo-2">
+            <small> &copy ; 2024 <br>  Todos los derechos Reservado</small>
+
+        </div>
+    
+</body>
+</html>
